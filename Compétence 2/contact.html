@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AkiStreet</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">AkiStreet</a></li>
+                    <li><a href="Qui sommes-nous.html">Qui sommes-nous</a></li>
+                    <li><a href="Collections.html">Collections</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Le Techwear Japonais pour un look streewear réussi.</h1>
+    </section>
+    
+<!------- Contactez-nous ------->      
+    
+    <section class="contactez-nous">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>115 boulevard Jourdan</h5>
+                            <p>Paris, France</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>0783640700</h5>
+                            <p>Du lundi au samedi de 10h à 18h</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>AkiStreet@gmail.com</h5>
+                            <p>Envoyez-nous votre demande par e-mail</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form method="post" action="contact-form-handler.php">
+                    <input type="text" name="name" placeholder="Enterz votre nom" required>
+                    <input type="email" name="email" placeholder="Enterz votre email " required>
+                    <input type="text" name="subject" placeholder="Objet" required>
+                    <textarea rows="8" name="message" placeholder="Votre demande" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Valider</button>
+                    </form> 
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>À propos de nous</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Créé par <i class="fa fa-heart-o"></i> Mohamed Amin Braham</p>
+</section>    
+  
+  
+<!----JavaScript menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

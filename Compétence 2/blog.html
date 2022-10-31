@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AkiStreet</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">AkiStreet</a></li>
+                    <li><a href="Qui sommes-nous.html">Qui sommes-nous </a></li>
+                    <li><a href="Collections.html">Collections</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Le Techwear Japonais pour un look streewear réussi.</h1>
+    </section>
+    
+<!----------    ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/Veste.jpg">
+        <h2>Le StreetWear Japonais</h2>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus. Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis finibus nibh luctus mattis. Vivamus diam turpis, pellentesque vel magna sit amet, sollicitudin efficitur tortor. Etiam ornare lacinia iaculis. Cras nec dui eu nibh pharetra condimentum. Vestibulum ultrices sapien vitae arcu varius volutpat. Integer rhoncus a massa ut aliquam. Sed aliquet, nibh non dictum ullamcorper, orci arcu posuere tortor, vitae ultrices nulla tortor nec sapien. Vestibulum ac nibh at leo maximus molestie.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus. Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis finibus nibh luctus mattis. Vivamus diam turpis, pellentesque vel magna sit amet, sollicitudin efficitur tortor. Etiam ornare lacinia iaculis. Cras nec dui eu nibh pharetra condimentum.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus. Nam pharetra viverra efficitur. Sed pellentesque luctus arcu.</p>
+        
+        <div class="comment-box">
+            <h3>Laissez un commentaire</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Nom/prénom">
+                    <input type="email" placeholder="Email">
+                    <textarea rows="5" placeholder="Votre commentaire"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Valider</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Thèmes abordés</h3>
+            <div>
+                <span>Techwear japonais</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>Streetwear</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>La culture japonaise</span>
+                <span>1</span>
+            </div>
+            <div>
+                <span>L'histoire de la sneakers</span>
+                <span>11</span>
+            </div>
+            <div>
+                <span>La mode Coréenne</span>
+                <span>2</span>
+            </div>
+            <div>
+                <span>Idées de outfits pour l'hiver</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>Le nouveau style Streetwear</span>
+                <span>5</span>
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>À propos de nous</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Créé par <i class="fa fa-heart-o"></i> Mohamed Amin Braham</p>
+</section>    
+  
+  
+<!----JavaScript menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
